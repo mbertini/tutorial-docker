@@ -1,8 +1,9 @@
 from flask import Flask
 import os
-import socket
+from dotenv import load_dotenv
 
-# Connect to Redis
+# load environment variables
+load_dotenv()
 
 app = Flask(__name__)
 

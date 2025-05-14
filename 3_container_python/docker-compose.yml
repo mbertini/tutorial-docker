@@ -2,10 +2,10 @@ version: "3.1"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: python-docker
+    #image: python-docker
 
     # image: python-docker can be substituted by this build (using the Dockerfile in the same folder)
-    #build: ./
+    build: ./
 
     ports:
       - "5000:5000"
