@@ -9,4 +9,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . /app
 WORKDIR /app
 
+# Expose the port the app runs on
+EXPOSE 5000
+
 CMD ["python3", "app.py"]
